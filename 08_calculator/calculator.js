@@ -7,7 +7,11 @@ const subtract = function(a, b) {
 };
 
 const sum = function(arr) {
-
+	total = 0;
+  arr.forEach((num) => {
+    total += num;
+  });
+  return total;
 };
 
 const multiply = function() {
